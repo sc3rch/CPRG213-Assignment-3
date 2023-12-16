@@ -5,7 +5,7 @@
 document.getElementById("submit-button").onclick = function() {contactPage()};
 
 function contactPage() {
-    submitMessage = document.getElementById("contact-page");
+    var submitMessage = document.getElementById("contact-page");
     submitMessage.innerHTML = "Thank you for your message";
     submitMessage.style.fontSize = "24px";
 }
